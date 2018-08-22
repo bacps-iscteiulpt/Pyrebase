@@ -16,7 +16,7 @@ setup(
     keywords='Firebase',
     packages=find_packages(exclude=['tests']),
     install_requires=[
-         'requests>=2.11.0',
+        'requests>=2.11.0',
         'google-cloud-storage>=1.8.0',
         'google-auth>=1.4.0',
         'requests-toolbelt>=0.7.0'
