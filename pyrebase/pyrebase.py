@@ -556,7 +556,7 @@ class Stream:
         return session
 
     def start(self):
-        self.thread = threading.Thread(target=self.start_stream)
+        self.thread = threading.Thread(target=self.start_stream, name=self.stream_id)
         self.thread.start()
         return self
 
